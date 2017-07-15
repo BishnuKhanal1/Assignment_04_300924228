@@ -5,7 +5,7 @@ using System.Text;
 /*Name: Bishnu Khanal
  * Date: July 14, 2017
  * Description: This is the abstract Planet class
- * Version:0.2 - Added private fields, public properties and constructor to the abstract Planet class
+ * Version:0.3 - Added public override (ToString) method to the abstract Planet class
  * GitHub Link: https://github.com/BishnuKhanal1/COMP123-s2017-Lesson9B-Lab24/commits/master   
  */
 namespace Assignment_04_300924228
@@ -95,6 +95,11 @@ namespace Assignment_04_300924228
             this._name = name;
             this._diameter = diameter;
             this._mass = mass;
+        }
+        public override string ToString()
+        {
+            return string.Format("Planet Name:{0} Diameter: {1} Mass: {2}",
+                this.Name, this.Diameter, this.Mass);      
         }
     }
 }
