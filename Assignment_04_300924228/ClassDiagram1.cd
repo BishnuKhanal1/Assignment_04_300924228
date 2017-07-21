@@ -8,18 +8,25 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Assignment_04_300924228.GiantPlanet">
-    <Position X="7.5" Y="1.5" Width="4.5" />
+    <Position X="7.5" Y="0.75" Width="4.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GiantPlanet.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Assignment_04_300924228.TerrestrialPlanet">
-    <Position X="7" Y="4.25" Width="1.5" />
+    <Position X="7.5" Y="3.5" Width="4.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TerrestrialPlanet.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Interface Name="Assignment_04_300924228.IHasMoons">
+    <Position X="4" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IHasMoons.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
