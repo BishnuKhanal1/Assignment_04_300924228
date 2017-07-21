@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 /*Name: Bishnu Khanal
  * Date: July 14, 2017
  * Description: This is the Program class
- * Version:0.1 - Created  the program class
+ * Version:0.2 - Implemented (tested) GiantPlanet object and terrestorialPlanet object
  * GitHub Link: https://github.com/BishnuKhanal1/COMP123-s2017-Lesson9B-Lab24/commits/master   
  */
 namespace Assignment_04_300924228
@@ -19,8 +19,10 @@ namespace Assignment_04_300924228
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            GiantPlanet giantPlanet = new GiantPlanet("Murcury",2000, 3000, "Gas");
-            
+            GiantPlanet giantPlanet = new GiantPlanet("Uranus", 50724, 8.681025, "Gas");
+            Console.WriteLine(giantPlanet.ToString());
+            TerrestrialPlanet terrestrialPlannet = new TerrestrialPlanet("Earth", 50724, 8.681025, true);
+            Console.WriteLine(terrestrialPlannet.ToString());
         }
     }
 }
