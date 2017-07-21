@@ -5,7 +5,7 @@ using System.Text;
 /*Name: Bishnu Khanal
  * Date: July 14, 2017
  * Description: This is the GiantPlanet (sub)class
- * Version:0.1 - Created a GiantPlanet class which has public GiantPlant constructor, HasMoon and HasRings Methods
+ * Version:0.2 -  Edited HasMoons() and HasRings() Methods which will returned true 
  * GitHub Link: https://github.com/BishnuKhanal1/COMP123-s2017-Lesson9B-Lab24/commits/master   
  */
 namespace Assignment_04_300924228
@@ -13,7 +13,7 @@ namespace Assignment_04_300924228
     /// <summary>
     /// This is the GiantPlanet class
     /// </summary>
-    public class GiantPlanet : Planet
+    public class GiantPlanet : Planet, IHasMoons, IHasRings
     {
         //Private instance variables
 
@@ -30,18 +30,18 @@ namespace Assignment_04_300924228
         /// </summary>
         /// <param name="moonCount"></param>
         /// <returns></returns>
-        public bool HasMoons(int moonCount)
+        public bool HasMoons()
         {
-            return (MoonCount > 0) ? true : false;
+            return (this.MoonCount > 0) ? true : false;
         }
         /// <summary>
         /// This is public HasRings method that returns true if ringCount property is geater than 0.
         /// </summary>
         /// <param name="moonCount"></param>
         /// <returns></returns>
-        public bool HasRings(int ringCount)
+        public bool HasRings()
         {
-            return (ringCount > 0) ? true : false;
+            return (this.RingCount > 0) ? true : false;
         }
     }
 }

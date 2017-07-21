@@ -19,6 +19,7 @@ namespace Assignment_04_300924228
         /// <param name="args"></param>
         static void Main(string[] args)
         {
+            GiantPlanet giantPlanet = new GiantPlanet("Murcury",2000, 3000, "Gas");
             
         }
     }

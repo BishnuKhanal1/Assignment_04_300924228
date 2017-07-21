@@ -11,7 +11,7 @@ using System.Text;
 namespace Assignment_04_300924228
 {
     /// <summary>
-    /// This is IHabotable interface
+    /// This is IHabitable interface
     /// </summary>
     public interface IHabitable
     {

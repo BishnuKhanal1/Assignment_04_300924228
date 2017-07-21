@@ -5,7 +5,7 @@ using System.Text;
 /*Name: Bishnu Khanal
  * Date: July 20, 2017
  * Description: This is the TerrestrialPlanet subclass class
- * Version:0.2 - Implemnted HasMoon method and Habital Method which will return true
+ * Version:0.3 - Edited HasMoon method and Habital Method which will return true
  * GitHub Link: https://github.com/BishnuKhanal1/COMP123-s2017-Lesson9B-Lab24/commits/master   
  */
 namespace Assignment_04_300924228
@@ -13,7 +13,7 @@ namespace Assignment_04_300924228
     /// <summary>
     /// This is terrestrialPlanet subclass which inherits from the Planet abstract class
     /// </summary>
-    public class TerrestrialPlanet :Planet
+    public class TerrestrialPlanet :Planet, IHasMoons, IHabitable
     {
         //Private instance variables
 
@@ -32,9 +32,9 @@ namespace Assignment_04_300924228
         /// </summary>
         /// <param name="moonCount"></param>
         /// <returns></returns>
-        public bool HasMoons(int moonCount)
+        public bool HasMoons()
         {
-            return (MoonCount > 0) ? true : false;
+            return (this.MoonCount > 0) ? true : false;
         }
         /// <summary>
         /// This is Habitable method.
@@ -42,7 +42,7 @@ namespace Assignment_04_300924228
         /// </summary>
         /// <param name="oxygen"></param>
         /// <returns></returns>
-        public bool Habitable(int oxygen)
+        public bool Habitable()
         {
             return (this._oxygen == true) ? true : false;
         }
