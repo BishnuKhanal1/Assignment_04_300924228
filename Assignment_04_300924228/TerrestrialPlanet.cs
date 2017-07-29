@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 /*Name: Bishnu Khanal
  * Date: July 20, 2017
- * Description: This is the TerrestrialPlanet subclass class
+ * Description: This is the TerrestrialPlanet subclass class. This class implements HasMoons() and Habitable() methods
  * Version:0.3 - Edited HasMoon method and Habital Method which will return true
  * GitHub Link: https://github.com/BishnuKhanal1/COMP123-s2017-Lesson9B-Lab24/commits/master   
  */

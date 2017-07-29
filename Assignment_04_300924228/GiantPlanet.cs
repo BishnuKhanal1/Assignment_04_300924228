@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 /*Name: Bishnu Khanal
  * Date: July 14, 2017
- * Description: This is the GiantPlanet (sub)class
+ * Description: This is the GiantPlanet class. This class implements HasMoons() & HasRings() methods.
  * Version:0.2 -  Edited HasMoons() and HasRings() Methods which will returned true 
  * GitHub Link: https://github.com/BishnuKhanal1/COMP123-s2017-Lesson9B-Lab24/commits/master   
  */

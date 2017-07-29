@@ -98,7 +98,7 @@ namespace Assignment_04_300924228
         }
         public override string ToString()
         {
-            return string.Format("Planet Name:{0} Diameter: {1}km Mass: {2}",
+            return string.Format("Planet Name: {0} Diameter:  {1}km Mass:  {2}kg",
                 this.Name, this.Diameter, this.Mass);      
         }
     }
